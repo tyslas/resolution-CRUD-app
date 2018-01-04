@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-// import 'bootstrap/less/bootstrap.less'
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
 
-
-import Navbar from './Navigation/Navbar';
-// import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import Navbar from './Components/UI/Navbar/Navbar'
+import Main from './Components/UI/Main/Main'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className={styles.App}>
         <Navbar />
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title"></h1>
-        </header> */}
+        <Main />
       </div>
     );
   }
