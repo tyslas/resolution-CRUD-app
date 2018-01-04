@@ -1,12 +1,12 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
 
-import Panel from '../Panel/Panel';
+import Card from '../Panel/Panel';
 
 const jumbotron = () => {
   return (
     <Jumbotron>
-        <Panel />
+        <Card />
     </Jumbotron>
   );
 }
